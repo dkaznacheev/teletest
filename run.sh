@@ -1,5 +1,7 @@
 #! /bin/bash
 
+cd ~/teletest/
+
 git pull origin master
 source venv/bin/activate
 pip3 install -r
